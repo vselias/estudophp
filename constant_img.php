@@ -1,0 +1,11 @@
+<?php
+
+const IMG_PESSOA_WIDTH = 128;
+const IMG_PESSOA_HEIGHT = 98;
+const IMG_SORT_WIDTH = 16;
+const IMG_SORT_HEIGHT = 16;
+const IMG_DELETE_WIDTH = 20;
+const IMG_DELETE_HEIGHT = 20;
+const IMG_EDIT_WIDTH = 20;
+const IMG_EDIT_HEIGHT = 20;
+?>

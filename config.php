@@ -1,0 +1,16 @@
+<?php 
+	
+	$BANCO_LOCAL_HOST = "localhost";
+	$BANCO_LOCAL_USER = "root";
+	$BANCO_LOCAL_SENHA = "";
+	$BANCO_LOCAL_TABELA = "testephp";
+
+
+	$BANCO_SERVER_USER = "epiz_26620243";
+	$BANCO_SERVER_PASS  = "SZugzcmQDn9i63";
+	$BANCO_SERVER_HOST = "sql204.epizy.com";
+	$BANCO_SERVER_TABELA = "epiz_26620243_pessoa";
+
+	// $mysqli = new mysqli($BANCO_SERVER_HOST, $BANCO_SERVER_USER, $BANCO_SERVER_PASS, $BANCO_SERVER_TABELA);
+	$mysqli = new mysqli($BANCO_LOCAL_HOST, $BANCO_LOCAL_USER, $BANCO_LOCAL_SENHA, $BANCO_LOCAL_TABELA);
+ ?>
